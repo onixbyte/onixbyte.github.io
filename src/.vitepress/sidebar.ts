@@ -1,12 +1,18 @@
 import type { DefaultTheme } from "vitepress/types"
+import { Locale } from "./types"
 
 export function projectSidebar(
-  projectIndex: string
+  projectIndex: string,
+  locale?: Locale
 ): DefaultTheme.SidebarItem[] {
+  const langTag = locale && locale != Locale.EN_GB ? `/${locale}` : ""
   return [
-    { text: "Intro", link: `/projects/${projectIndex}/` },
-    { text: "Usage", link: `/projects/${projectIndex}/usage` },
-    { text: "API", link: `/projects/${projectIndex}/api` },
-    { text: "Changelog", link: `/projects/${projectIndex}/changelog` },
+    { text: "Intro", link: `${langTag}/projects/${projectIndex}/` },
+    { text: "Usage", link: `${langTag}/projects/${projectIndex}/usage` },
+    { text: "API", link: `${langTag}/projects/${projectIndex}/api` },
+    {
+      text: "Changelog",
+      link: `${langTag}/projects/${projectIndex}/changelog`,
+    },
   ]
 }
