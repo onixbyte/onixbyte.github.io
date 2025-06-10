@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: OnixByte Official
+title: OnixByte 官方网站
 titleTemplate: ":title"
 
 hero:
@@ -9,13 +9,13 @@ hero:
   tagline: Building Better, Together.
 
 features:
-  - title: Open-source Class Libraries
+  - title: 开源类库
     details: |
       Our collection of open-source class libraries offers meticulously crafted, reusable components
       designed to accelerate your development process. Each library is maintained with rigorous
       standards to ensure reliability, efficiency, and ease of integration, empowering developers to
       build robust applications with confidence.
-  - title: Customise Your Project
+  - title: 定制您的项目
     details: |
       Tailor your project to perfectly suit your unique requirements with our flexible and modular
       tools. Whether you need to tweak existing components or develop bespoke functionalities, our
@@ -26,9 +26,7 @@ features:
 
 ## Innovating Development, Empowering Developers
 
-At OnixByte, we aim to simplify and accelerate the software development process
-through high-quality, open-source tools and frameworks. Whether you're building a robust backend,
-a sleek frontend, or exploring automation, our resources are designed to meet your needs.
+At OnixByte, we aim to simplify and accelerate the software development process through high-quality, open-source tools and frameworks. Whether you're building a robust backend, a sleek frontend, or exploring automation, our resources are designed to meet your needs.
 
 ## 🚀 Mission
 

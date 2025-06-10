@@ -1,111 +1,20 @@
 import { defineConfig } from "vitepress"
-import { projectSidebar } from "./sidebar"
+import { britishEnglishConfig, simplifiedChineseConfig } from "./locale-config"
 
 export default defineConfig({
-  title: "OnixByte Official",
-  titleTemplate: ":title | OnixByte",
-  description:
-    "OnixByte specialises in delivering cutting-edge technology solutions that drive innovation and empower businesses to excel in the digital era.",
   locales: {
     root: {
       label: "English",
       lang: "en",
+      ...britishEnglishConfig,
+    },
+    "zh-CN": {
+      label: "简体中文",
+      lang: "zh-CN",
+      ...simplifiedChineseConfig,
     },
   },
   themeConfig: {
-    nav: [
-      { text: "Home", link: "/" },
-      {
-        text: "Projects",
-        items: [
-          {
-            text: "Version Catalogue",
-            link: "/projects/version-catalogue",
-          },
-          { text: "Common Toolkit", link: "/projects/common-toolkit" },
-          {
-            text: "Identity Generator",
-            link: "/projects/identity-generator",
-          },
-          { text: "Crypto Toolkit", link: "/projects/crypto-toolkit" },
-          { text: "Math Toolkit", link: "/projects/math-toolkit" },
-          {
-            text: "JWT Toolkit",
-            link: "/projects/jwt-toolkit",
-          },
-        ],
-      },
-    ],
-
-    sidebar: {
-      "/opensource": [
-        {
-          text: "Open Source Documents",
-          items: [
-            { text: "License", link: "/opensource/license" },
-            { text: "Contributing", link: "/opensource/contributing" },
-            { text: "Code of Conduct", link: "/opensource/code-of-conduct" },
-          ],
-        },
-        {
-          text: "Open Source Projects",
-          items: [
-            {
-              text: "Version Catalogue",
-              link: "/projects/version-catalogue",
-            },
-            { text: "Common Toolkit", link: "/projects/common-toolkit" },
-            {
-              text: "Identity Generator",
-              link: "/projects/identity-generator",
-            },
-            { text: "Crypto Toolkit", link: "/projects/crypto-toolkit" },
-            { text: "Math Toolkit", link: "/projects/math-toolkit" },
-            {
-              text: "JWT Toolkit",
-              link: "/projects/jwt-toolkit",
-            },
-          ],
-        },
-      ],
-      "/projects/version-catalogue": [
-        {
-          text: "Project",
-          items: projectSidebar("version-catalogue"),
-        },
-      ],
-      "/projects/common-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("common-toolkit"),
-        },
-      ],
-      "/projects/identity-generator/": [
-        {
-          text: "Project",
-          items: projectSidebar("identity-generator"),
-        },
-      ],
-      "/projects/crypto-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("crypto-toolkit"),
-        },
-      ],
-      "/projects/math-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("math-toolkit"),
-        },
-      ],
-      "/projects/jwt-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("jwt-toolkit"),
-        },
-      ],
-    },
-
     socialLinks: [{ icon: "github", link: "https://github.com/onixbyte" }],
   },
   outDir: "../dist",
