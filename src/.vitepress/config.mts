@@ -1,15 +1,25 @@
 import { defineConfig } from "vitepress"
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "OnixByte | Empowering Innovation",
+  title: "OnixByte Official",
+  titleTemplate: "OnixByte | :title",
   description:
     "OnixByte specialises in delivering cutting-edge technology solutions that drive innovation and empower businesses to excel in the digital era.",
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+  },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      {
+        text: "Projects",
+        items: [
+          { text: "Version Catalogue", link: "/projects/version-catalogue" },
+        ],
+      },
     ],
 
     sidebar: [
@@ -22,8 +32,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/onixbyte" }],
   },
+  outDir: "../dist"
 })

@@ -1,11 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: OnixByte Official
+titleTemplate: ":title"
 
 hero:
-  name: "OnixByte"
-  text: "OnixByte specialises in delivering cutting-edge technology solutions that drive innovation and empower businesses to excel in the digital era."
-  tagline: My great project tagline
+  name: OnixByte
   actions:
     - theme: brand
       text: Markdown Examples
