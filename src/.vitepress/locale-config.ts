@@ -1,7 +1,13 @@
-import { defineConfig } from "vitepress"
+import { defineConfig, LocaleConfig, LocaleSpecificConfig } from "vitepress"
 import { projectSidebar } from "./sidebar"
+import { DefaultTheme } from "vitepress/types"
 
-export const britishEnglishConfig = defineConfig({
+export const britishEnglishConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
+  label: string
+  link?: string
+} = {
+  label: "English",
+  lang: "en",
   title: "OnixByte Official",
   titleTemplate: ":title | OnixByte",
   description:
@@ -99,9 +105,14 @@ export const britishEnglishConfig = defineConfig({
       ],
     },
   },
-})
+}
 
-export const simplifiedChineseConfig = defineConfig({
+export const simplifiedChineseConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
+  label: string
+  link?: string
+} = {
+  label: "简体中文",
+  lang: "zh-CN",
   title: "OnixByte 官方网站",
   titleTemplate: ":title | OnixByte",
   description: "",
@@ -136,7 +147,10 @@ export const simplifiedChineseConfig = defineConfig({
           items: [
             { text: "许可证", link: "/zh-CN/opensource/license" },
             { text: "贡献", link: "/zh-CN/opensource/contributing" },
-            { text: "Code of Conduct", link: "/zh-CN/opensource/code-of-conduct" },
+            {
+              text: "Code of Conduct",
+              link: "/zh-CN/opensource/code-of-conduct",
+            },
           ],
         },
         {
@@ -198,6 +212,6 @@ export const simplifiedChineseConfig = defineConfig({
       ],
     },
   },
-})
+}
 
 export const traditionalChineseConfig = defineConfig({})
