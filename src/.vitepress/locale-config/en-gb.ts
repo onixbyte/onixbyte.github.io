@@ -19,6 +19,10 @@ export const britishEnglishConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
         text: "Projects",
         items: [
           {
+            text: "Java Dev Kit",
+            link: "/projects/java-dev-kit"
+          },
+          {
             text: "Version Catalogue",
             link: "/projects/version-catalogue",
           },
@@ -50,6 +54,10 @@ export const britishEnglishConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
           text: "Open Source Projects",
           items: [
             {
+              text: "Java Dev Kit",
+              link: "/projects/java-dev-kit"
+            },
+            {
               text: "Version Catalogue",
               link: "/projects/version-catalogue",
             },
@@ -66,6 +74,12 @@ export const britishEnglishConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
             },
           ],
         },
+      ],
+      "/projects/java-dev-kit": [
+        {
+          text: "Project",
+          items: projectSidebar("java-dev-kit")
+        }
       ],
       "/projects/version-catalogue": [
         {

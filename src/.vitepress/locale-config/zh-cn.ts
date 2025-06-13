@@ -18,6 +18,10 @@ export const simplifiedChineseConfig: LocaleSpecificConfig<DefaultTheme.Config> 
         text: "项目",
         items: [
           {
+            text: "Java Dev Kit",
+            link: "/zh-CN/projects/java-dev-kit"
+          },
+          {
             text: "Version Catalogue",
             link: "/zh-CN/projects/version-catalogue",
           },
