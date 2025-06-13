@@ -6,44 +6,39 @@ titleTemplate: ":title"
 
 hero:
   name: OnixByte
-  tagline: Building Better, Together.
+  tagline: 携手共创更美好。
 
 features:
   - title: 开源类库
     details: |
-      Our collection of open-source class libraries offers meticulously crafted, reusable components
-      designed to accelerate your development process. Each library is maintained with rigorous
-      standards to ensure reliability, efficiency, and ease of integration, empowering developers to
-      build robust applications with confidence.
+      我们的开源类库集合提供了精心打造的可重用组件，旨在加速您的开发流程。每个类库都遵循严格标准进行维护，确保其可靠性、高效性和易于集成，助力开发者自信地构建稳健的应用程序。
   - title: 定制您的项目
     details: |
-      Tailor your project to perfectly suit your unique requirements with our flexible and modular
-      tools. Whether you need to tweak existing components or develop bespoke functionalities, our
-      solutions provide the adaptability and control to shape your project exactly as envisioned.
+      使用我们灵活且模块化的工具，量身定制您的项目，完美契合您的独特需求。无论是调整现有组件，还是开发定制功能，我们的解决方案都能提供足够的灵活性和控制力，让您的项目精准呈现理想蓝图。
 ---
 
 [//]: # (![Banner]&#40;/brand/banner-filled.svg&#41;)
 
-## Innovating Development, Empowering Developers
+## 创新驱动发展，赋能助力开发。
 
-At OnixByte, we aim to simplify and accelerate the software development process through high-quality, open-source tools and frameworks. Whether you're building a robust backend, a sleek frontend, or exploring automation, our resources are designed to meet your needs.
+在 OnixByte，我们致力于通过高质量的开源工具和框架，简化并加速软件开发流程。无论您是在构建稳健的后端、流畅的前端，还是探索自动化，我们的资源均旨在满足您的各种需求。
 
-## 🚀 Mission
+## 🚀 使命
 
-We are committed to:
+我们致力于：
 
-- Creating innovative development tools that save time and effort.
-- Sharing knowledge and best practices with the developer community.
-- Fostering collaboration and building impactful open-source projects.
+- 创造创新的开发工具，节省时间与精力。
+- 与开发者社区共享知识和最佳实践。
+- 促进合作，打造有影响力的开源项目。
 
-## ❤️ Join the Community
+## ❤️ 加入社区
 
-- **GitHub Discussions**: Ask questions, share ideas, and discuss solutions.
+- **GitHub 讨论区**：提问、分享想法，讨论解决方案。
 
-## 📧 Contact Us
+## 📧 联系我们
 
-Have a question, feedback, or partnership opportunity? Reach out to us!
+有问题、反馈或合作机会？欢迎联系我们！
 
-- Email us: opensource@onixbyte.com
+- 发送邮件至：opensource@onixbyte.com
 
 
