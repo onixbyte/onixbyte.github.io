@@ -18,23 +18,8 @@ export const simplifiedChineseConfig: LocaleSpecificConfig<DefaultTheme.Config> 
         text: "项目",
         items: [
           {
-            text: "Java Dev Kit",
-            link: "/zh-CN/projects/java-dev-kit"
-          },
-          {
-            text: "Version Catalogue",
-            link: "/zh-CN/projects/version-catalogue",
-          },
-          { text: "Common Toolkit", link: "/zh-CN/projects/common-toolkit" },
-          {
-            text: "Identity Generator",
-            link: "/zh-CN/projects/identity-generator",
-          },
-          { text: "Crypto Toolkit", link: "/zh-CN/projects/crypto-toolkit" },
-          { text: "Math Toolkit", link: "/zh-CN/projects/math-toolkit" },
-          {
-            text: "JWT Toolkit",
-            link: "/zh-CN/projects/jwt-toolkit",
+            text: "OnixByte 工具箱",
+            link: "/zh-CN/projects/onixbyte-toolbox",
           },
         ],
       },
@@ -56,57 +41,27 @@ export const simplifiedChineseConfig: LocaleSpecificConfig<DefaultTheme.Config> 
           text: "开源项目",
           items: [
             {
-              text: "Version Catalogue",
-              link: "/zh-CN/projects/version-catalogue",
-            },
-            { text: "Common Toolkit", link: "/zh-CN/projects/common-toolkit" },
-            {
-              text: "Identity Generator",
-              link: "/zh-CN/projects/identity-generator",
-            },
-            { text: "Crypto Toolkit", link: "/zh-CN/projects/crypto-toolkit" },
-            { text: "Math Toolkit", link: "/zh-CN/projects/math-toolkit" },
-            {
-              text: "JWT Toolkit",
-              link: "/zh-CN/projects/jwt-toolkit",
+              text: "OnixByte 工具箱",
+              link: "/zh-CN/projects/onixbyte-toolbox",
             },
           ],
         },
       ],
-      "/zh-CN/projects/version-catalogue": [
+      "/zh-CN/projects/onixbyte-toolbox": [
         {
           text: "项目",
-          items: projectSidebar("version-catalogue", Locale.ZH_CN),
-        },
-      ],
-      "/zh-CN/projects/common-toolkit/": [
-        {
-          text: "项目",
-          items: projectSidebar("common-toolkit", Locale.ZH_CN),
-        },
-      ],
-      "/zh-CN/projects/identity-generator/": [
-        {
-          text: "项目",
-          items: projectSidebar("identity-generator", Locale.ZH_CN),
-        },
-      ],
-      "/zh-CN/projects/crypto-toolkit/": [
-        {
-          text: "项目",
-          items: projectSidebar("crypto-toolkit", Locale.ZH_CN),
-        },
-      ],
-      "/zh-CN/projects/math-toolkit/": [
-        {
-          text: "项目",
-          items: projectSidebar("math-toolkit", Locale.ZH_CN),
-        },
-      ],
-      "/zh-CN/projects/jwt-toolkit/": [
-        {
-          text: "项目",
-          items: projectSidebar("jwt-toolkit", Locale.ZH_CN),
+          items: [
+            { text: "简介", link: "/zh-CN/projects/onixbyte-toolbox/" },
+            {
+              text: "使用",
+              link: "/zh-CN/projects/onixbyte-toolbox/usage",
+            },
+            { text: "API", link: `/zh-CN/projects/onixbyte-toolbox/api` },
+            {
+              text: "更新日志",
+              link: `/zh-CN/projects/onixbyte-toolbox/changelog`,
+            },
+          ],
         },
       ],
     },

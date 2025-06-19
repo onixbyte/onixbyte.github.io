@@ -19,24 +19,9 @@ export const britishEnglishConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
         text: "Projects",
         items: [
           {
-            text: "Java Dev Kit",
-            link: "/projects/java-dev-kit"
-          },
-          {
-            text: "Version Catalogue",
-            link: "/projects/version-catalogue",
-          },
-          { text: "Common Toolkit", link: "/projects/common-toolkit" },
-          {
-            text: "Identity Generator",
-            link: "/projects/identity-generator",
-          },
-          { text: "Crypto Toolkit", link: "/projects/crypto-toolkit" },
-          { text: "Math Toolkit", link: "/projects/math-toolkit" },
-          {
-            text: "JWT Toolkit",
-            link: "/projects/jwt-toolkit",
-          },
+            text: "OnixByte Toolbox",
+            link: "/projects/onixbyte-toolbox"
+          }
         ],
       },
     ],
@@ -54,68 +39,25 @@ export const britishEnglishConfig: LocaleSpecificConfig<DefaultTheme.Config> & {
           text: "Open Source Projects",
           items: [
             {
-              text: "Java Dev Kit",
-              link: "/projects/java-dev-kit"
-            },
-            {
-              text: "Version Catalogue",
-              link: "/projects/version-catalogue",
-            },
-            { text: "Common Toolkit", link: "/projects/common-toolkit" },
-            {
-              text: "Identity Generator",
-              link: "/projects/identity-generator",
-            },
-            { text: "Crypto Toolkit", link: "/projects/crypto-toolkit" },
-            { text: "Math Toolkit", link: "/projects/math-toolkit" },
-            {
-              text: "JWT Toolkit",
-              link: "/projects/jwt-toolkit",
-            },
+              text: "OnixByte Toolbox",
+              link: "/projects/onixbyte-toolbox"
+            }
           ],
         },
       ],
-      "/projects/java-dev-kit": [
+      "/projects/onixbyte-toolbox": [
         {
           text: "Project",
-          items: projectSidebar("java-dev-kit")
+          items: [
+            { text: "Intro", link: `/projects/onixbyte-toolbox/` },
+            { text: "Usage", link: `/projects/onixbyte-toolbox/usage` },
+            { text: "API", link: `/projects/onixbyte-toolbox/api` },
+            {
+              text: "Changelog",
+              link: `/projects/onixbyte-toolbox/changelog`,
+            },
+          ]
         }
-      ],
-      "/projects/version-catalogue": [
-        {
-          text: "Project",
-          items: projectSidebar("version-catalogue"),
-        },
-      ],
-      "/projects/common-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("common-toolkit"),
-        },
-      ],
-      "/projects/identity-generator/": [
-        {
-          text: "Project",
-          items: projectSidebar("identity-generator"),
-        },
-      ],
-      "/projects/crypto-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("crypto-toolkit"),
-        },
-      ],
-      "/projects/math-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("math-toolkit"),
-        },
-      ],
-      "/projects/jwt-toolkit/": [
-        {
-          text: "Project",
-          items: projectSidebar("jwt-toolkit"),
-        },
       ],
     },
   },
